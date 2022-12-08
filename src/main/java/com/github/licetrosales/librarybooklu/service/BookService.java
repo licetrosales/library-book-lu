@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-package com.github.licetrosales.librarybooklu.service;public class BookService {
-=======
 package com.github.licetrosales.librarybooklu.service;
 
 import com.github.licetrosales.librarybooklu.model.Book;
 import com.github.licetrosales.librarybooklu.repository.BookRepository;
 import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 
@@ -20,5 +18,5 @@ public class BookService {
     public List<Book> getAllBooks(Book book1) {
         return bookRepository.getAllBooks();
     }
->>>>>>> 5acc6bf (Add getAllBooks method and test)
+
 }

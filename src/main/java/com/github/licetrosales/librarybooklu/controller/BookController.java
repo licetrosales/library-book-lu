@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-package com.github.licetrosales.librarybooklu.controller;public class BookController {
-=======
 package com.github.licetrosales.librarybooklu.controller;
 
 import com.github.licetrosales.librarybooklu.service.BookService;
 import org.springframework.web.bind.annotation.RequestMapping;
+
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -15,5 +13,4 @@ public class BookController {
     public BookController(BookService bookService) {
         this.bookService = bookService;
     }
->>>>>>> 5acc6bf (Add getAllBooks method and test)
 }
