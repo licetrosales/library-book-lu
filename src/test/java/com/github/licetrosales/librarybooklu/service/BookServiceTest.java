@@ -24,7 +24,7 @@ class BookServiceTest {
         when(mockBookRepository.getAllBooks()).thenReturn(books);
 
         // WHEN
-        List<Book> result = bookService.getAllBooks(book1);
+        List<Book> result = bookService.getAllBooks();
 
         // THEN
         List<Book> expected = books;

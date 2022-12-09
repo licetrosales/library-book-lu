@@ -12,11 +12,13 @@ public class BookService {
     private BookRepository bookRepository;
 
     public BookService(BookRepository bookRepository) {
+
         this.bookRepository = bookRepository;
     }
 
-    public List<Book> getAllBooks(Book book1) {
-        return bookRepository.getAllBooks();
+    public List<Book> getAllBooks() {
+        return
+                bookRepository.getAllBooks();
     }
 
 }

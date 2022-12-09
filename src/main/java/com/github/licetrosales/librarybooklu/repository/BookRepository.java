@@ -16,4 +16,9 @@ public class BookRepository {
     public List<Book> getAllBooks() {
         return books;
     }
+
+    public Book addBook(Book newBook){
+        this.books.add(newBook);
+        return newBook;
+    }
 }
